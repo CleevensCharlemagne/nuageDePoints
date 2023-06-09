@@ -14,7 +14,7 @@ def displayCahart(x:list, y:list):
     # Afficher le graphique
     plt.show()
 
-# Définir les données à tracer
+# Définir les données à tracer.
 x = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2] # Durée en heure
 y = [52.12, 52.16, 52.24, 52.28, 52.32, 52.37, 52.44, 52.47] # Moyenne en mm
 
