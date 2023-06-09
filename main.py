@@ -1,4 +1,4 @@
-# Importer la bibliothèque matplotlib
+# Importer la bibliothèque matplotlib.
 import matplotlib.pyplot as plt
 
 def displayCahart(x:list, y:list):
@@ -15,7 +15,7 @@ def displayCahart(x:list, y:list):
     plt.show()
 
 # Définir les données à tracer.
-x = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2] # Durée en heure
+x = [0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2] # Durée en heure.
 y = [52.12, 52.16, 52.24, 52.28, 52.32, 52.37, 52.44, 52.47] # Moyenne en mm
 
 displayCahart(x, y)
