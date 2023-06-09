@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def displayCahart(x:list, y:list):
 
-    # Tracer le nuage de points avec la fonction scatter
+    # Tracer le nuage de points avec la fonction scatter.
     plt.scatter(x, y)
 
     # Ajouter des titres et des étiquettes aux axes
